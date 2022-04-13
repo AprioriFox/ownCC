@@ -6,7 +6,7 @@ import './style.css';
 
 const Footer = () => {
     return(
-        <div>
+        <div className="footer">
             <div className="container">
                 <div className="cont">
                     <din className = "line" />
@@ -14,7 +14,7 @@ const Footer = () => {
                         <div className="footerLogo">
                             <span className="footerIcon"></span>
                             <div className="iconText">
-                                <h2>CUSTOM CAPS</h2>
+                                <h3>CUSTOM CAPS</h3>
                                 <p>Магазин кепок</p>
                             </div>
                         </div>

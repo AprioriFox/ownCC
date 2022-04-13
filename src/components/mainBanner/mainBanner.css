@@ -1,0 +1,59 @@
+.mainBanner {
+    background-color: #F8F7F7;
+}
+a {
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+.mainBanner h2 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    margin: 0;
+    padding-top: 140px;
+}
+.mainBanner p { 
+    width: 490px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.yellowElipse {
+    position: absolute;
+    display: inline-block;
+    width: 126px;
+    height: 126px;
+    border-radius: 50%;
+    background-color: yellow;
+    /* transform: translate(-40%,0); */
+}
+
+.leftSide {
+    /* position: absolute; */
+    display: inline-block;
+    width: 295px;
+    height: 177px;
+    background-image: url('../../images/mainBannerImages/leftSide.svg');
+    transform: rotate(-60deg);
+    left: -4%;
+    top: 5%;
+}
+.rightSide {
+    /* position: absolute; */
+    display: inline-block;
+    width: 500px;
+    height: 340px;
+    background-image: url('../../images/mainBannerImages/rightSide.svg');
+    transform: translate(-50%,-50%) rotate(-45deg);
+    right: 0;
+    bottom: 0;
+}
+.backSide {
+    /* position: absolute; */
+    display: inline-block;
+    width: 290px;
+    height: 245px;
+    background-image: url('../../images/mainBannerImages/backSide.svg');
+    right: 0;
+}

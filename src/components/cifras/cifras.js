@@ -3,7 +3,7 @@ import './cifras.css'
 
 const Cifras = () => {
     return (
-        <div>
+        <div className="cifras">
             <div className="container">
                 <div className="cifCont">
                     <h2>CUSTOM CUPS в цифрах</h2>

@@ -22,7 +22,7 @@
 .footerLogo {
     display: flex;
 }
-.iconText h2{
+.iconText h3{
     font-weight: 600;
     font-size: 12px;
     line-height: 14.63px;
