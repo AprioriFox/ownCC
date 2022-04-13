@@ -1,0 +1,27 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.cifCont{
+    margin-bottom: 50px;
+}
+.info h3 {
+    display: inline;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FDDB16;
+    margin-right: 10px;
+
+}
+.info p {
+    display: inline;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+.cifCont h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
