@@ -2,6 +2,7 @@ import React from "react";
 import Logo from '../../images/headerImages/logo.svg'
 import Cart from '../../images/headerImages/cart.svg'
 import './header.css'
+import { TextField } from "@mui/material";
 
 
 const Header = () =>{
@@ -18,7 +19,7 @@ const Header = () =>{
                         <p>О Нас</p>
                     </div>
                     <div className="search">
-
+                        <TextField label="Search" className="searchField"/>
                     </div>
                     <a href="#" className="cart">
                         <img src = {Cart} alt='cart' />

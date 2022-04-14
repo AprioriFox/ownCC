@@ -4,3 +4,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.tabs p{
+    display: inline-block;
+}
+.tabs p:nth-child(2) {
+    margin: 0 75px;
+}
