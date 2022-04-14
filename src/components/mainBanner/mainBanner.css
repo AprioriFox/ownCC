@@ -1,6 +1,19 @@
 .mainBanner {
     background-color: #F8F7F7;
 }
+.mainBannerText {
+    position: relative;
+}
+.mainBanner .caps {
+    z-index: 0;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.leftSide img{
+    position: absolute;
+}
 a {
     text-decoration: none;
     margin-bottom: 40px;
@@ -18,42 +31,39 @@ a {
     font-size: 20px;
     line-height: 22px;
 }
-
+.rightElems {
+    display: flex;
+}
 .yellowElipse {
-    position: absolute;
-    display: inline-block;
+    display: block;
     width: 126px;
     height: 126px;
     border-radius: 50%;
     background-color: yellow;
-    /* transform: translate(-40%,0); */
+    transform: translate(-40%,0);
 }
-
+.redElipse {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+    transform: translate(80%, 100%);
+}
+.blick {
+    display: block;
+    width: 52px;
+    height: 52px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(249, 249, 249, 0.46) 0%, rgba(222, 70, 70, 0) 100%);;
+}
 .leftSide {
-    /* position: absolute; */
-    display: inline-block;
-    width: 295px;
-    height: 177px;
-    background-image: url('../../images/mainBannerImages/leftSide.svg');
-    transform: rotate(-60deg);
-    left: -4%;
-    top: 5%;
+    transform: translate(-25%,-50%) rotate(-60deg);
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .rightSide {
-    /* position: absolute; */
-    display: inline-block;
-    width: 500px;
-    height: 340px;
-    background-image: url('../../images/mainBannerImages/rightSide.svg');
-    transform: translate(-50%,-50%) rotate(-45deg);
-    right: 0;
-    bottom: 0;
-}
-.backSide {
-    /* position: absolute; */
-    display: inline-block;
-    width: 290px;
-    height: 245px;
-    background-image: url('../../images/mainBannerImages/backSide.svg');
-    right: 0;
+    transform: translate(-5%,17%) rotate(-40deg);
 }

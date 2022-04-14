@@ -1,7 +1,7 @@
-import React from "react"
-import MainBanner from "../mainBanner"
-import Cifras from "../cifras"
-import Footer from "../footer"
+import React from "react";
+import MainBanner from "../mainBanner";
+import Cifras from "../cifras";
+import Footer from "../footer";
 import '../../styles/core.css'
 
 
