@@ -1,3 +1,4 @@
+
 .line {
     display: inline-block;
     width: 100%;
@@ -23,9 +24,10 @@
     display: flex;
 }
 .iconText h3{
+    font-family: 'Montserrat';
     font-weight: 600;
     font-size: 12px;
-    line-height: 14.63px;
+    line-height: 15px;
 }
 .iconText p{
     font-size: 10px;
