@@ -1,0 +1,16 @@
+.topSellers h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: 'Roboto';
+}
+.topSellers b{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+}
+.topSellers li{
+    text-decoration: none;
+}

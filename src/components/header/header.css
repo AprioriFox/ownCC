@@ -4,9 +4,13 @@
     justify-content: space-between;
     align-items: center;
 }
-.tabs p{
+.tabs a{
     display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
 }
-.tabs p:nth-child(2) {
+.tabs a:nth-child(2) {
     margin: 0 75px;
 }
+
