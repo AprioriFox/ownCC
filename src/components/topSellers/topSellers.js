@@ -6,12 +6,16 @@ import {ReactComponent as NikePic} from '../../images/topSellersImages/Nike.svg'
 import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Swiper, SwiperSlide} from "swiper/react";
+import 'swiper/css';
+import { Navigation} from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
 
 
 const Adidas = () =>{
     return(
         <div className={'topSellersItem'}>
-            <img src={AdidasPic} alt={'adidas'} className={'adidasItem'}/>
+            <span className="adidasPic"></span>
             <div className={'adidasItemInfo'}>
                 <h2>Adidas</h2>
                 <p>San Francisco Baseball</p>
@@ -27,11 +31,15 @@ const TopSellers = () => {
            <div className="container">
                 <h2>Top Sellers</h2>
                <Swiper
+                   modules={[Navigation]}
                    spaceBetween={50}
                    slidesPerView={3}
-                   onSlideChange={() => console.log('slide change')}
+                   navigation
                    onSwiper={(swiper) => console.log(swiper)}
+                   onSlideChange={() => console.log('slide change')}
                >
+                   <SwiperSlide><Adidas/></SwiperSlide>
+                   <SwiperSlide><Adidas/></SwiperSlide>
                    <SwiperSlide><Adidas/></SwiperSlide>
                    <SwiperSlide><Adidas/></SwiperSlide>
                </Swiper>

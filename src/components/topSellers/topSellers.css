@@ -17,10 +17,8 @@
 .control-dots {
     display: none;
 }
-.adidasItem {
-    width: 220px;
-    height: 145px;
-
+.adidasItemInfo {
+    text-align: center;
 }
 .adidasItemInfo h2{
     display: inline-block;
@@ -46,3 +44,15 @@
 
     color: #FDDB16;
 }
+.topSellersItem span{
+    display: block;
+    width: 220px;
+    height: 145px;
+    margin: 0 auto;
+}
+.adidasPic {
+    background-image: url('../../images/topSellersImages/adidas.svg');
+    background-position: center;
+    background-size: cover;
+}
+
