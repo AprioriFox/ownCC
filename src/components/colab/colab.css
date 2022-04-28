@@ -1,0 +1,93 @@
+.colab{
+    padding-top: 25px;
+    padding-bottom: 65px;
+    position: relative;
+}
+.yellowBack {
+    display: block;
+    width: 100%;
+    /* padding-top: 40px; */
+
+    background: linear-gradient(93.98deg, #FDDB16 0.21%, #FFB800 100%);;
+}
+.colab .container{
+    display: flex;
+}
+.colab .button{
+    background-color: #670098;
+    color: #fff;
+    text-decoration: none;
+}
+.colab h2{
+    width: 510px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.colab b{
+    letter-spacing: 0;
+    font-weight: 200;
+    text-transform: lowercase;
+}
+.colab .colabText{
+    margin: 130px 65px;
+}
+.suprime{
+    display: flex;
+    width: 235px;
+    height: 135px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+.suprimeText h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #847E7E;
+}
+
+.suprimeText p{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.05em;
+
+    color: #847E7E;
+}
+.suprimeText p:last-child{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FDDB16;
+}
+.bigColabImg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.purpleCircle {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    display: block;
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+    background: #670098;
+}
+.innerPurpleCircle {
+    display: block;
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+    background: radial-gradient(72.73% 72.73% at 15.15% 71.55%, #4A0E67 0%, rgba(40, 7, 55, 0) 100%);
+}

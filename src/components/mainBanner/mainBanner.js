@@ -3,6 +3,7 @@ import LeftSide from '../../images/mainBannerImages/leftSide.svg';
 import RightSide from '../../images/mainBannerImages/rightSide.svg';
 import BackSide from '../../images/mainBannerImages/backSide.svg'
 import './mainBanner.css'
+import { Link } from "react-router-dom";
 
 const MainBanner = () => {
  return (
@@ -28,7 +29,7 @@ const MainBanner = () => {
                 <p>Новая коллекция 2021 уже доступны на заказ
     яркие цвета, винтажный принт 70х, тематические 
     группы и отличное качество</p>
-                <a href = "#" className="button">Открыть каталог</a>
+                <Link to="/catalog" className="button">Открыть каталог</Link>
             </div>
         </div>
      </div>

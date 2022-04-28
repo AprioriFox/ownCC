@@ -1,9 +1,5 @@
 import React from "react";
 import './topSellers.css';
-import AdidasPic from '../../images/topSellersImages/adidas.svg';
-import {ReactComponent as NewEraPic} from '../../images/topSellersImages/newEra.svg';
-import {ReactComponent as NikePic} from '../../images/topSellersImages/Nike.svg';
-import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Swiper, SwiperSlide} from "swiper/react";
 import 'swiper/css';

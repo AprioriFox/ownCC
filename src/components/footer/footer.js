@@ -19,15 +19,15 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="socIcons">
-                            <div className="socCircles">
+                            <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' className="socCircles">
                                 <LinkLogo className="link"/>
-                            </div>
-                            <div className="socCircles">
+                            </a>
+                            <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' className="socCircles">
                                 <FaceLogo className="link"/>
-                            </div>
-                            <div className="socCircles">
+                            </a>
+                            <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' className="socCircles">
                                 <TwitLogo className="link"/>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div>
